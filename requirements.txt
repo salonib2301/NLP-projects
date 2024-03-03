@@ -1,0 +1,26 @@
+transformers 
+transformers[sentenecepiece]
+datasets
+sacrebleu # it is an evaluation metrics in text summarization we use row matrix thus we need this library to implement it
+#The ROUGE (Recall-Oriented Understudy for Gisting Evaluation) score is a metric used to evaluate the quality
+#of machine-generated text summaries.ROUGE is the F1 score from the n-gram precision and recall.
+rouge_score
+py7zr #is a library and utility to support 7zip archive compression, decompression, encryption and decryption written by Python
+pandas
+nltk #natural language tool kit
+tqdm # gives progress meter for a loop
+PyYAML
+matplotlib
+torch
+notebook
+boto3 #makes it easy to integrate your Python application,library, or script with AWSservices including Amazon S3,Amazon EC2,Amazon DynamoDB,etc
+mypy-boto3-s3
+python-box==6.0.2 #Box is a subclass of dict which overrides some base functionality to make sure everything stored in the dict can be accessed as an attribute or key value.
+ensure==1.0.2 #is a set of simple assertion helpers that let you write more expressive, literate, concise, and readable Pythonic code for validating conditions.
+fastapi==0.78.0 # FastAPI framework enables engineers to rapidly build new applications by calling functions such as authentication through the Fast API
+#The main thing you need to run a FastAPI application in a remote server machine is an ASGI server program like Uvicorn.
+#ASGI[Asynchronous Server Gateway Interface]It is a Python standard for asynchronous communication between web servers, web frameworks, application servers,etc
+uvicorn==0.18.3
+#Jinja is a text templating language. It allows you to process a block of text, insert values from a context dictionary, control how the text flows using conditionals and loops, modify inserted data with filters, and compose different templates together using inheritance and inclusion.
+Jinja2==3.1.2
+-e .
