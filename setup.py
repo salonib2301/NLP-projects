@@ -9,7 +9,7 @@ __version__ ="0.0.0"
 
 REPO_NAME = "NLP-projects"
 AUTHOR_USER_NAME = "salonib2301"
-SRC_REPO = "project name" # in files src write the project name mentioned there 
+SRC_REPO = "nlp_summarizer" # in files src write the project name mentioned there 
 AUTHOR_EMAIL = "salonib2301@gmail.com"
 
 setuptools.setup(
